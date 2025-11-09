@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockeys</title>
+    <!-- tailwindcss & daisyui css -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- customs css -->
+    <link rel="stylesheet" href="./common.css">
+    <!-- fontawsome -->
+    <script src="https://kit.fontawesome.com/cd3b26a153.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="">
+        <div class="navbar bg-base-100 shadow-sm">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="-1"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box  mt-3 w-52 p-2 shadow">
+                </div>
+                <a class="btn btn-ghost text-xl font-extrabold">Hockey<span class="text-orange-600">’</span>s</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a class="font-bold text-orange-600">Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <button class="btn btn-ghost btn-circle hidden lg:flex">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                </button>
+                <a class="btn navbar-center text-white bg-orange-600">Get Ticket</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="">
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
+                        class="w-full" />
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
+                        class="w-full" />
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
+                        class="w-full" />
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
+                        class="w-full" />
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="justify-items-center justify-center mt-16">
+                <h1 class="flex text-center items-center font-bold ">Professional Hockeys Club</h1>
+                <p class="text-center flex items-center font-extralight w-sm mt-6">Dit amet consectetur. Condimentum
+                    dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+        </section>
+        <!-- progress start -->
+        <section>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-16">
+                <div class="flex flex-col items-center gap-4">
+                    <div class="radial-progress text-orange-600" style="--value:87;" aria-valuenow="87"
+                        role="progressbar">87%</div>
+                    <h1 class="text-lg font-semibold">Prayer Facility</h1>
+                    <p class="text-center text-xs font-normal">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div class="flex flex-col items-center gap-4">
+                    <div class="radial-progress text-green-300" style="--value:95;" aria-valuenow="95"
+                        role="progressbar">95%</div>
+                    <h1 class="text-lg font-semibold">Experienced Coach</h1>
+                    <p class="text-center text-xs font-normal">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div class="flex flex-col items-center gap-4">
+                    <div class="radial-progress text-yellow-400" style="--value:90;" aria-valuenow="90"
+                        role="progressbar">90%</div>
+                    <h1 class="text-lg font-semibold">Senior Player</h1>
+                    <p class="text-center text-xs font-normal">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div class="flex flex-col items-center gap-4">
+                    <div class="radial-progress text-blue-300" style="--value:80;" aria-valuenow="80"
+                        role="progressbar">80%</div>
+                    <h1 class="text-lg font-semibold">Training Ground</h1>
+                    <p class="text-center text-xs font-normal">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+            </div>
+        </section>
+        <!-- program section here -->
+        <section>
+            <div class="text-center my-10">
+                <h2 class="text-lg font-bold mt-32">Program Sections</h2>
+                <p class="text-gray-500 max-w-xl mx-auto mt-6 mb-16">
+                    Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto px-4">
+
+                <!-- Card 1 -->
+                <div class="card  shadow-xl image-full">
+                    <figure>
+                        <img src="./Media/bg1.png" alt="Junior Program" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title text-white">Junior Program</h2>
+                        <p class="text-gray-200">
+                            Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                            congue sed et in.
+                        </p>
+                        <div class="justify-start">
+                            <button class="btn bg-red-500 text-white">Register Now!</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="card bg-base-100 shadow-lg image-full">
+                    <figure>
+                        <img src="./Media/bg2.png" alt="Teenager Program" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title text-white">Teenager Program</h2>
+                        <p class="text-gray-200">
+                            Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                            congue sed et in.
+                        </p>
+                        <div class=" justify-start">
+                            <button class="btn btn bg-red-500  text-white">Register Now!</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card bg-base-100 shadow-xl image-full md:col-span-2 lg:col-span-1">
+                    <figure>
+                        <img src="./Media/bg3.png" alt="Professional Program" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title text-white">Professional Program</h2>
+                        <p class="text-gray-200">
+                            Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                            congue sed et in.
+                        </p>
+                        <div class=" justify-start">
+                            <button class="btn btn bg-red-500  text-white">Register Now!</button>
+                        </div>
+                    </div>
+                      
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
